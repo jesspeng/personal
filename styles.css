@@ -11,7 +11,6 @@
  * The height may need to be changed if the height of you
  * navigation changes.
 */
-
 body {
 	padding-top: 70px;
 }
@@ -143,9 +142,23 @@ a:hover {
 html,
 body
 {
-	font-family: arial;
+	font-family: "Helvetica Neue";
+	font-weight: 300;
 	font-size: 1em; /* 16px/16px = 1em */
 	line-height: 1.5; /* 24px/16px = 1.5 */
+}
+
+b {
+	font-weight: 400;
+}
+
+.work {
+	font-weight: 400;
+	font-size: 23px;
+}
+
+.resume-title {
+	font-weight: 400;
 }
 
 .h1,
